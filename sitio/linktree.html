@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">    
+<title>Links website</title>
+<script src="https://unpkg.com/feather-icons"></script>
+<style>
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://www.w3schools.com/howto/img_link_tree_template3_bg.jpg"); /* The image used for background */
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-container {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-white {
+    color:antiquewhite;
+    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.w3-button {
+    margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="bg-image"></div>
+
+    <div class="bg-container">
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="https://avatars.githubusercontent.com/u/43888961?v=4" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-blue w3-round" style="font-weight: bolder;">Hola, soy Jose Leyva</span></p>
+        <p style="font-weight: bolder;">¡Mira mis enlaces!</p>
+      </div>
+
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <div class="container">
+        <h4 class="margin-top-2 color-white" style="text-align: center;">MIS REDES SOCIALES</h4>
+      </div>
+      <div class="links-container">
+          <a href="https://github.com/JosephLeyva" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
+          <br>
+          <a href="https://www.instagram.com/josephleyvacontreras/" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+      </div>
+
+      <!-- Links section 2. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2 color-white" style="text-align: center;">MI EXPERIENCIA</h4>
+      <div class="links-container">
+        <a href="https://www.linkedin.com/in/josephleyvac" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">LinkedIn</a>
+      </div>
+
+      <!-- Links section 3. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2 color-white" style="text-align: center;">MI MEDIUM</h4>
+      <div class="links-container">
+        <a href="https://josephleyvac.medium.com" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Jose Alberto Leyva Contreras</a>
+      </div>
+
+      <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+        <span style="vertical-align: 7px; color: blanchedalmond;"> 2024 - Hecho por Alberto Leyva</span>
+      </div>
+
+    </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
